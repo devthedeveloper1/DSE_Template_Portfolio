@@ -1,1 +1,1 @@
-This repository is a template for documenting BlueStamp Engineering projects. Users should replace this text with a description of what their project is and what their repository holds. 
+This is the omni-wheel robot project by Devarsh Ganoorkar as part of the BlueStamp Engineering program, I will be showcasing the work done and the concepts learned over the past several weeks. 
