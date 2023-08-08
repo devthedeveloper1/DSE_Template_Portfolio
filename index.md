@@ -1,7 +1,7 @@
 # Devarsh Omni-Wheel project
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+This is the Mecham Omni-Wheel robot built and completed by Devarsh Ganoorkar. I chose this project because I wanted to explore mobility, structures and electrical engineering concepts while also integrating my software experience. The biggest challenge I experienced was the quality and avaliablity of materials, I had to work with many faulty parts such as the broken LED lights, missing screws and malfunctioning IR sensors - however this was also my biggest triumph as I was able to complete the project regardless and found innovative substitues/aternatives for the missing and/or faulty parts. I was very fascinated by the electrical engineering aspect of this project as I found the arduino code to be a little bit difficult to understand without a solid background in electrical concepts. After learning about wiring and the different functions of parts such as the wifi shield, megaboard and motors - I was able to effectively visualise and understand how the arduino software integrated within the entire system. I also learned about H-diagrams, digital and analog signals/inputs and how HIGH and LOW functions can be used to bring upon rotation and varied movements through the motors. 
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
+
 ```HTML 
 <!--- This is an HTML comment in Markdown -->
 <!--- Anything between these symbols will not render on the published site -->
@@ -9,7 +9,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| FirstName LastInitialOnly | School Name | Electrical Engineering | Incoming Senior
+| Devarsh Ganoorkar | Reedy High School | Electrical Engineering | Incoming Sophmore 
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
@@ -35,23 +35,16 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+In my second milestone - I completed the steps I planned in my Milestone 1 video by inputting the code and setting up the ultrasonic sensors and infrared sensors. I also learned a lot about the different functions and inner workings of both the Ultrasonic sensor and IR sensors and how they take in inputs from different frequencies/wavelenghts to perform tasks such as object detection and line tracking. I did face several challenges with some more faulty components such as one of the IR sensors simply failed to respond while I had another set of screws missing to attach the ultrasonic sensor which may have interfered with the stability and accuracy of its object detection capabilities. I again overcame these challenges by using whatever materials I had around me (tape, different screws, etc) to attach the US sensor in a somewhat stable fashion which allowed the robot to work effectively. Before my final milestone - all I really need to accomplish is to gather the correct materials from my instructors and correct the faulty parts (IR sensors and wheels). Lastly, I would also prefer to finish up my modifications which I plan to be either another component of the Osyoo kit and code provided to me or my unique touch to the project (a thermal sensor with object identifcation capabilities). If possible - I would love to do both but that would have to work with my time constraints and learning curve needed to work on complex mods like the thermal sensor/imaging. 
 
 # First Milestone
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="[https://www.youtube.com/embed/CaCazFBhYKs](https://www.youtube.com/watch?v=NGiaRBSVVbc&ab_channel=BlueStampEng)" title="Devarsh Milestone 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+
+My first milestone was essentially gaining basic functionality and proper movement with the robot. I wanted to have it completely assembled and ready to move freely, however, with the missing parts, this proved to be somewhat of a challenge as the wheels were unable to fit through. I used tape, hammering and even glue to provide a temporary fix to this problem but after several launches, the wheels would evenutally fall off. This issue was major but I still persisted - I used the started code to program my robot to perform some basic rotational and forward-backward movements while also learning a lot about wiring and the functions of the different components. My plan to complete my project is to first have the main assembly finished and then I would like to start working with some of the really cool components given to me such as the Ultrasonic and IR sensors to complete complex tasks such as object detection and line tracking, which I think are very excellent projects/activities to further my understanding of electrical engineering. 
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
@@ -82,10 +75,4 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
-# Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
-To watch the BSE tutorial on how to create a portfolio, click here.
