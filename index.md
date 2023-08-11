@@ -17,13 +17,8 @@ This is the Mecham Omni-Wheel robot built and completed by Devarsh Ganoorkar. I 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
-
-
+Since I faced quite a few struggles with my original project (wheel functionality, faulty components) and a lack of time, I was unable to add any significant modifications. I did however manage to order some more IR sensors which I used to program my robot to be able to perform line tracking tasks such as following a strip of black duct tape through the use of the IR sensors. I also attempted to add a last minute modification where I could attach a possible thermal sensor/camera to identify the object with the highest heat/thermal signature and for the robot to react by moving towards the thermal signature. This was very challenging given my limited expertise in electronics and arduino, however, with help from my instructor and some online resources, I was able to create a base code (untested) that should work but since it remains untested, there is no guarantee. This was I believe my greatest challenge in the program and it is yet unknown if I managed to overcome it but I do plan to soon buy the thermal sensor and try my very best to understand it by myself. 
+For your final milestone, explain the outcome of your project. However, even with all the challenges I faced, I do believe that I learned quite a lot through simply experience and technical work - before this, I had little to no experience conducting any engineering project before and even though I was not able to make the desired modifications to my project, I would say that the experience I got from this project would be invaluable. I learned about several new, relevant concepts such as H-diagrams, Arduino code, HIGH/LOW functions and more. I will say that I did make a mistake by not going through a structured and intensive engineering course before this program as it would have been far more benefical to apply previously learned information to a new project. 
 
 # Second Milestone
 
@@ -398,7 +393,7 @@ void loop() {
 }
 ```
 
-# Bill of Materials
+# Bill of Materials (List of main tools/equipment used)
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
 
@@ -407,5 +402,6 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Engineering kit | A general kit for engineering tools like solders, screwdrivers, pliers, etc | $28 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/Soldering-Iron-Kit-Temperature-Desoldering/dp/B07Q2B4ZY9/ref=asc_df_B07Q2B4ZY9/?tag=hyprod-20&linkCode=df0&hvadid=343209938057&hvpos=&hvnetw=g&hvrand=9711908616551175950&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1026836&hvtargid=pla-739851839715&psc=1&tag=&ref=&adgrpid=68249717199&hvpone=&hvptwo=&hvadid=343209938057&hvpos=&hvnetw=g&hvrand=9711908616551175950&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1026836&hvtargid=pla-739851839715)https://www.amazon.com/Soldering-Iron-Kit-Temperature-Desoldering/dp/B07Q2B4ZY9/ref=asc_df_B07Q2B4ZY9/?tag=hyprod-20&linkCode=df0&hvadid=343209938057&hvpos=&hvnetw=g&hvrand=9711908616551175950&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1026836&hvtargid=pla-739851839715&psc=1&tag=&ref=&adgrpid=68249717199&hvpone=&hvptwo=&hvadid=343209938057&hvpos=&hvnetw=g&hvrand=9711908616551175950&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1026836&hvtargid=pla-739851839715"> Link </a> |
 | Wifi Shield | proccessing unit for code and motors | $26 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/)"> Link </a> |
 | Ultrasonic sensors | Used for object detection and possible avoidance programs | $5 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.mouser.com/ProductDetail/SparkFun/SEN-15569?qs=P1JMDcb91o46Sr4O2RLYiA%3D%3D&mgh=1&gclid=CjwKCAjw8symBhAqEiwAaTA__DmNyCNNDa_fu7QRWrp8iziGg2rnpYlMuK4i06CQCwpmb_nPz7vm8hoCN7MQAvD_BwE)https://www.mouser.com/ProductDetail/SparkFun/SEN-15569?qs=P1JMDcb91o46Sr4O2RLYiA%3D%3D&mgh=1&gclid=CjwKCAjw8symBhAqEiwAaTA__DmNyCNNDa_fu7QRWrp8iziGg2rnpYlMuK4i06CQCwpmb_nPz7vm8hoCN7MQAvD_BwE"> Link </a> |
+| IR sensors | used to detect different frequencies and wavelenghts and input them along with code to react (depending on what reaction was intended when detecting different inputs) | $10 | <a href="  https://www.amazon.com/Gikfun-avoidance-Reflective-Photoelectric-Intensity/dp/B07FJLMLVZ/ref=asc_df_B07FJLMLVZ/?tag=hyprod-20&linkCode=df0&hvadid=242021018855&hvpos=&hvnetw=g&hvrand=13900884704753398350&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1026836&hvtargid=pla-525961642959&psc=1 "> Link </a> |
 
 
