@@ -9,7 +9,7 @@ This is the Mecham Omni-Wheel robot built and completed by Devarsh Ganoorkar. I 
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Headstone Image](logo.svg)
+![Headstone Image](DSE_template_Portfolio/assestsScreenshot 2023-08-11 at 12.16.24 AM.png)
   
 # Final Milestone
 
